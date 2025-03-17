@@ -1,7 +1,7 @@
 body {
     font-family: 'Press Start 2P', cursive;    
     text-align: center;
-    background: url('/background.png') repeat-x;
+    background: url('./background.png') repeat-x;
     margin: 0;
     padding: 20px;
 }
@@ -17,7 +17,7 @@ p {
 }
 button {
     font-family: 'Press Start 2P', cursive;  
-    background: url('/ButtonNemBenyomva.png') no-repeat center;
+    background: url('./ButtonNemBenyomva.png') no-repeat center;
     background-size: contain;
     width: 128px;
     height: 108px;
@@ -32,7 +32,7 @@ button {
     image-rendering: crisp-edges;
 }
 button:active {
-    background: url('/ButtonBenyomva.png') no-repeat center;
+    background: url('./ButtonBenyomva.png') no-repeat center;
     background-size: contain;
 }
 a {
@@ -90,7 +90,7 @@ a {
     text-align: center;
     image-rendering: pixelated;
     image-rendering: crisp-edges;
-    background-image: url(chatbox.png);
+    background-image: url(./chatbox.png);
     background-repeat: no-repeat;
     background-size: contain;
     right: 10%;
