@@ -1,0 +1,59 @@
+body {
+    font-family: 'Press Start 2P', cursive;    
+    text-align: center;
+    background: url('/background.png') repeat-x;
+    margin: 0;
+    padding: 20px;
+}
+h1 {
+    color: #333;
+}
+p {
+    font-size: 18px;
+    color: #666;
+}
+.button-container a {
+    display: inline-block;
+}
+button {
+    font-family: 'Press Start 2P', cursive;  
+    background: url('/ButtonNemBenyomva.png') no-repeat center;
+    background-size: contain;
+    width: 128px;
+    height: 108px;
+    border: none;
+    cursor: pointer;
+    color: #4dd0e1;
+    font-size: 60%;
+    font-weight: bold;
+    text-align: center;
+    display: block;
+}
+button:active {
+    background: url('/ButtonBenyomva.png') no-repeat center;
+    background-size: contain;
+}
+a {
+    text-decoration: none;
+}
+
+.styled-input {
+    font-family: 'Press Start 2P', cursive;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    border: 3px solid #4dd0e1;
+    border-radius: 0;
+    font-size: 16px;
+    outline: none;
+    box-sizing: border-box;
+    width: 100%;
+    margin: 10px 0;
+}
+.styled-input:focus {
+    border-color: #29b6f6;
+}
+.styled-input::placeholder {
+    color: #29b6f6;
+}
