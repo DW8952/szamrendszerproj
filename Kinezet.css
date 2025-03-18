@@ -24,12 +24,13 @@ button {
     border: none;
     cursor: pointer;
     color: #4dd0e1;
-    font-size: 2vw;
+    font-size: 82%;
     font-weight: bold;
     text-align: center;
     display: block;
     image-rendering: pixelated;
     image-rendering: crisp-edges;
+    word-wrap: break-word;
 }
 button:active {
     background: url('./ButtonBenyomva.png') no-repeat center;
