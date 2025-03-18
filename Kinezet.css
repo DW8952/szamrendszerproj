@@ -19,12 +19,12 @@ button {
     font-family: 'Press Start 2P', cursive;  
     background: url('./ButtonNemBenyomva.png') no-repeat center;
     background-size: contain;
-    width: 128px;
-    height: 108px;
+    width: 192px;
+    height: 162px;
     border: none;
     cursor: pointer;
     color: #4dd0e1;
-    font-size: 60%;
+    font-size: 84%;
     font-weight: bold;
     text-align: center;
     display: block;
@@ -111,6 +111,16 @@ a {
     object-fit: cover;
     image-rendering: pixelated;
     image-rendering: crisp-edges;
+}
+
+.kontenerajatekgombjainak {
+    display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .hibasgomb {
