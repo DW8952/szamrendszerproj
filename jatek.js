@@ -2,7 +2,7 @@ console.log('booting game');
 
 let questionIndex = -1;
 
-const qa = [ // the first answer is always the correct one
+const qa = [ // az elso mindig a helyes
    {
       "Mi a bináris számrendszer?": [
          "Egy rendszer, ami csak a 0 és 1 számjegyeket használ",
@@ -73,10 +73,12 @@ function nextQuestion() {
 
       for (let i = 0; i < elAnswers.length; i++) {
          elAnswers[i].innerText = answersShuffled[i];
+         elAnswers[i].className = 'answer';
       }
 
    } else {
-      alert('congrats!');
+      alert('Ügyes!');
+      window.location.href = 'index.html';
    }
 }
 
