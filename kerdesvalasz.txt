@@ -1,0 +1,57 @@
+1:
+Mi a bináris számrendszer?
+        A. Egy rendszer, ami csak a 0 és 1 számjegyeket használ
+B. Egy rendszer, ami a 0–9 számjegyeket tartalmazza
+C. Egy rendszer, ami 0, 1, 2 számjegyeket használ
+D. Egy rendszer, ami csak páros számokat ábrázol
+
+
+
+2:
+Milyen számjegyeket használ a bináris rendszer?
+        A. 0 és 1
+B. 1 és 2
+C. 0 és 2
+D. 1, 2 és 3
+
+
+
+3:
+Mi a 2^3 értéke?
+A. 6
+        B. 8
+C. 9
+D. 7
+
+
+
+4:
+Melyik a decimális 13 helyes bináris alakja?
+A. 1011
+B. 1001
+C. 1110
+        D. 1101
+
+
+
+5:
+Mit jelent a "bit" rövidítése?
+A. Binary integer
+        B. Binary digit
+C. Bit digit
+D. Byte information
+
+6:
+Mi a 253 helyes bináris alakja?
+A. 10101010
+B. 11001100
+        C. 11111101
+D. 01111111
+
+7:
+Miért előnyös a bináris rendszer a számítástechnikában?
+
+        A. Könnyen ábrázolható elektromos jelekkel
+B. Bonyolultabb műveleteket tesz lehetővé
+C. Több számjegyet használ, mint a decimális
+D. Nagyobb számokat ábrázol
