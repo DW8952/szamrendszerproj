@@ -55,3 +55,4 @@ Miért előnyös a bináris rendszer a számítástechnikában?
 B. Bonyolultabb műveleteket tesz lehetővé
 C. Több számjegyet használ, mint a decimális
 D. Nagyobb számokat ábrázol
+
