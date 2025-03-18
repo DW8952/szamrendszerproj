@@ -101,3 +101,14 @@ a {
     display: flex;
     background-position: 0%;
 }
+
+.magyarazat {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    image-rendering: pixelated;
+    image-rendering: crisp-edges;
+}
