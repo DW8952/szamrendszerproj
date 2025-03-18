@@ -76,17 +76,16 @@ a {
     top: 15%;
     left: 90%;
     transform: translate(-90%, -50%);
-    width: 256px;
-    height: 256px;
-    color: white;
+    width: 10vw;
+    height: 10vh;
     image-rendering: pixelated;
     image-rendering: crisp-edges;
     display: inline-block;
 }
 .kerdes {
     padding: 10px;
-    width: 256px;
-    height: 256px;
+    width: 30vw;
+    height: 23vh;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -95,10 +94,12 @@ a {
     background-image: url(./chatbox.png);
     background-repeat: no-repeat;
     background-size: contain;
+    overflow: hidden;
+    white-space: pre-wrap;
     right: 10%;
     position: absolute;
     color: #29b6f6;
-    font-size: 16px;
+    font-size: 2vw;
     font-weight: bold;
     display: flex;
     background-position: 0%;
