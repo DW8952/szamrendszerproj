@@ -19,12 +19,12 @@ button {
     font-family: 'Press Start 2P', cursive;  
     background: url('./ButtonNemBenyomva.png') no-repeat center;
     background-size: contain;
-    width: 192px;
-    height: 162px;
+    width: 30vw;
+    height: 24vh;
     border: none;
     cursor: pointer;
     color: #4dd0e1;
-    font-size: 84%;
+    font-size: 2vw;
     font-weight: bold;
     text-align: center;
     display: block;
