@@ -70,6 +70,11 @@ function nextQuestion() {
 
 
       const elAnswers = document.querySelectorAll('.answer');
+      const elQuestion = document.querySelector('.kerdes');
+
+      elQuestion.innerText = question;
+      console.log(elQuestion.innerText)
+      elQuestion.className = 'kerdes'
 
       for (let i = 0; i < elAnswers.length; i++) {
          elAnswers[i].innerText = answersShuffled[i];
