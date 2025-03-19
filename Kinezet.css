@@ -48,7 +48,7 @@ button {
 button:active {
     background: url('./ButtonBenyomva.png') no-repeat center;
     background-size: 100% 100%;
-    max-width: 13vw;
+    max-width: 11vw;
     min-width: 150px;
     max-height: 10h;
     height: auto;
@@ -99,31 +99,32 @@ a {
     width: 256px;
     height: 256px;
 }
-
 .kerdes {
     padding: 10px;
-    width: 30vw;
-    height: 30vh;
+    max-width: 30vw;
+    max-height: 30vh;
+    min-width: auto;
     min-height: 170px;
-    text-align: center;
-    background: url(./chatbox.png) no-repeat center / contain;
+    image-rendering: pixelated;
+    image-rendering: crisp-edges;
+    background-image: url(./chatbox.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    white-space: normal;
+    right: 10%;
+    position: absolute;
     color: #29b6f6;
-    font-size: clamp(10px, 1.2vw, 16px);
+    font-size: clamp(10px, 1.5vw, 16px);
+    word-wrap: break-word;
     font-weight: bold;
     display: flex;
     align-items: center;
     justify-content: center;
-    position: absolute;
-    right: 10%;
-    overflow: hidden;
-    white-space: normal;
-    word-wrap: break-word;
-    max-width: 20ch; /* Limits text width to ~20 characters per line */
-    line-height: 1.2; /* Adjusts spacing for better fit */
     text-align: center;
+    background-position: 0%;
+    word-wrap: break-word;
+    overflow: visible;
 }
-
-
 
 .magyarazat {
     position: absolute;
